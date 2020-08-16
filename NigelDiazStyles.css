@@ -1,0 +1,82 @@
+﻿#allPage {
+	width: 980px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-color: #002060;
+	color: #FFFFFF;
+	font-family: "Bookman Old Style";
+}
+#header a {
+	padding: 5px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#header a:hover {
+	color: #002060;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+#headerLogo a:hover {
+	background-color: #002060;
+}
+#navBar {
+	font-size: 30px;
+}
+#footer {
+	padding: 10px;
+	color: #FFFFFF;
+	background-color: #002060;
+	font-family: "Bookman Old Style";
+}
+#footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 5px 2px 5px 2px;
+}
+#footerNav a:hover {
+	background-color: #FFFFFF;
+	color: #002060;
+	font-weight: bolder;
+}
+#footer p {
+	text-align: center;
+}
+#pageTitle {
+	background-image: url('images/background.jpg');
+	text-align: center;
+	font-family: "Bookman Old Style";
+	font-size: x-large;
+	color: #001D58;
+}
+#pageInfo {
+	padding: 10px;
+	background-color: #FFFFFF;
+	font-family: "Bookman Old Style";
+	font-size: medium;
+	color: #001F5E;
+}
+#pageInfo p {
+	padding: 5px 25px 25px 25px;
+}
+#pageInfo h2 {
+	text-align: center;
+}
+#btnAboutMe {
+	padding-left: 185px;
+}
+body {
+	margin: 0px;
+	background-color: #99CCFF;
+}
+a {
+		color: #002060;
+	}
+a:active {
+	color: #99CCFF;
+}
+a:hover {
+	color: #99CCFF;
+}
