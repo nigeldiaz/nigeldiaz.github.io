@@ -27,7 +27,7 @@ const project3 = {
     type: "JavaScript", 
     projectLink: "https://nigeldiaz.github.io/mcu-trivia", 
     sourceCodeLink: "https://github.com/nigeldiaz/mcu-trivia", 
-    image: "images/mcu-trivia.jpg"
+    image: "../images/mcu-trivia.jpg"
 };
 const project4 = {
     name: "", 
