@@ -11,7 +11,7 @@ const project1 = {
     type: "JavaScript", 
     projectLink: "https://nigeldiaz.github.io/thisprofiledoesnotexist",
     sourceCodeLink: "https://github.com/nigeldiaz/thisprofiledoesnotexist", 
-    image: "images/thisprofiledoesnotexist.jpg"
+    image: "images/thisprofiledoesnotexist.JPG"
 };
 const project2 = {
     name: "Palindrome Checker", 
@@ -19,7 +19,7 @@ const project2 = {
     type: "JavaScript", 
     projectLink: "https://nigeldiaz.github.io/palindrome-checker", 
     sourceCodeLink: "https://github.com/nigeldiaz/palindrome-checker", 
-    image: "images/palindrome-checker.jpg"
+    image: "images/palindrome-checker.JPG"
 };
 const project3 = {
     name: "MCU Trivia", 
@@ -27,7 +27,7 @@ const project3 = {
     type: "JavaScript", 
     projectLink: "https://nigeldiaz.github.io/mcu-trivia", 
     sourceCodeLink: "https://github.com/nigeldiaz/mcu-trivia", 
-    image: "../images/mcu-trivia.jpg"
+    image: "images/mcu-trivia.JPG"
 };
 const project4 = {
     name: "", 
