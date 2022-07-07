@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+    Created by: Nigel Diaz
+    Created on: July 2, 2022
+    Last Updated on: July 6, 2022
+-->
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="en-ca" http-equiv="Content-Language" />
+        <link rel = "icon" href = "images/logo.png" />
+        <title>Nigel Diaz | Contact</title>
+        <meta content="nigel diaz, nigel, diaz, software engineer, cybersecurity" name="keywords" />
+        <meta content="This is the official portfolio website of Nigel Diaz." name="description" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.85">
+        <link href="css/index-styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header id="header">
+            <a href="index.html" title="The Official Portfolio of Nigel Diaz">
+                <img src="images/nigel_diaz_logo.jpg" alt="Nigel Diaz's logo">
+            </a>
+            <ul>
+                <li><a href="index.html" title="Portfolio">Portfolio</a></li>
+                <li><a href="about.html" title="About">About</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <div id="contactContent">
+                <strong>Contact</strong>
+                <form action="https://formsubmit.co/nigeldiaz54@gmail.com" method="post">
+                    <input type="hidden" name="_next" value="https://nigeldiaz.github.io/thank-you.html">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="firstName">
+                                    First Name:
+                                </label>
+                            </td>
+                            <td>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lastName">
+                                    Last Name:
+                                </label>
+                            </td>
+                            <td>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">
+                                    Email Address:
+                                </label>
+                            </td>
+                            <td>
+                                <input type="email" id="email" name="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="message">
+                                    Message:
+                                </label>
+                            </td>
+                            <td>
+                                <textarea id="message" name="message" rows="10" cols="60" required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Send Message">
+                            </td>
+                        </tr>
+                    </table>
+                                        
+                </form>
+
+            </div>
+        </main>        
+        <footer>
+            <a href="#header" title="Go back to top of page">&uArr;&uArr;&uArr;</a> |
+            <a href="index.html" title="Portfolio">Portfolio</a> |
+            <a href="about.html" title="About">About</a> |
+            <a href="contact.html" title="Contact">Contact</a>
+            <hr/>
+            <div id="icons">               
+                <a href="https://github.com/nigeldiaz" target="_blank" title="GitHub">
+                    <img id="iconGitHub" src="images/github-icon.jpg" alt="GitHub Icon"> 
+                </a> 
+                <a href="https://linkedin.com/in/nigel-diaz" target="_blank" title="LinkedIn">
+                    <img id="iconLinkedIn" src="images/linkedin-icon.jpg" alt="LinkedIn Icon">  
+                </a>
+                <a href="https://formsubmit.co/el/hacova" target="_blank" title="Email"> 
+                    <img id="iconEmail" src="images/email-icon.jpg" alt="Email Icon">
+                </a>
+            </div>
+            <a href="index.html" title="The Official Portfolio of Nigel Diaz">
+                <img src="images/nigel_diaz_logo.jpg" alt="Nigel Diaz's logo">
+            </a>
+            <br/><br/><br/>
+            <strong><em>&copy; <em id="currentYear"></em> Nigel Diaz</em></strong>
+        </footer>
+    </body>
+    <script src="js/aboutContact.js"></script>
+</html>
