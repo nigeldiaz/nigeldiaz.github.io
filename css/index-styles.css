@@ -41,7 +41,7 @@ li {
     display: inline;
 }
 
-li a {    
+li a, #btnDropdown {    
     font-size: x-large;
     text-decoration: none;
     color: #f4f8f9;
@@ -209,6 +209,21 @@ table {
     background-color: #3b95c4;
 }
 
+#btnDropdown {
+    display: none;
+    color: #fafafa;
+    background: transparent;
+    border: none;
+    margin-top: -7.5px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#btnDropdown:hover {
+    color: #232d32;
+    background-color: #f4f8f9;
+}
+
 #projects div {    
     width: 42%;
     margin-top: 10px;
@@ -301,6 +316,45 @@ table {
 
     #contactContent form textarea, #firstName, #lastName, #email {
         width: 100%;
+    }
+
+    #btnDropdown {
+        display: block;
+        font-size: x-large;
+    }
+    
+    #dropdown {
+        display: inline-block;
+        position: relative;        
+    }
+
+    #dropdown:hover ul {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        margin: 0;
+    }
+
+    li {
+        display: block;
+        background-color: #3b95c4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    li:hover, li:hover a, li a:hover {
+        color: #202020;
+        background-color: #fafafa;
+    }
+
+    li a {
+        padding: 0;
     }
 
     footer {
