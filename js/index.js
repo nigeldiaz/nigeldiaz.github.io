@@ -30,7 +30,7 @@ const project3 = {
     image: "images/mcu-trivia.JPG"
 };
 const project4 = {
-    name: "IT Support Chat", 
+    name: "IT Support Chatbot", 
     description: "A chatbot, developed using Vanilla JavaScript, that assists users with their technical issues on Windows.", 
     type: "JavaScript", 
     projectLink: "https://nigeldiaz.github.io/it-support-chatbot", 
