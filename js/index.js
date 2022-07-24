@@ -49,7 +49,7 @@ const iconLinkedInProfile = document.getElementById("iconLinkedInProfile");
 const iconGitHubProfile = document.getElementById("iconGitHubProfile");
 //displays projects in portfolio
 function displayProjects() {
-    for (var project = 0; project < portfolioProjects.length-1; project++) {
+    for (var project = 0; project < portfolioProjects.length; project++) {
         let div = document.createElement("div");
         div.setAttribute("id", "div-"+project);
         projects.appendChild(div);
