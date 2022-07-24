@@ -30,12 +30,12 @@ const project3 = {
     image: "images/mcu-trivia.JPG"
 };
 const project4 = {
-    name: "", 
-    description: "", 
-    type: "", 
-    projectLink: "", 
-    sourceCodeLink: "", 
-    image: ""
+    name: "IT Support Chat", 
+    description: "A chatbot, developed using Vanilla JavaScript, that assists users with their technical issues on Windows.", 
+    type: "JavaScript", 
+    projectLink: "https://nigeldiaz.github.io/it-support-chatbot", 
+    sourceCodeLink: "https://nigeldiaz.github.io/it-support-chatbot", 
+    image: "images/it-support-chatbot.JPG"
 };
 //declare global variables
 const portfolioProjects = [project1, project2, project3, project4];
