@@ -34,7 +34,7 @@ const project4 = {
     description: "A chatbot, developed using Vanilla JavaScript, that assists users with their technical issues on Windows.", 
     type: "JavaScript", 
     projectLink: "https://nigeldiaz.github.io/it-support-chatbot", 
-    sourceCodeLink: "https://github.com/it-support-chatbot", 
+    sourceCodeLink: "https://github.com/nigeldiaz/it-support-chatbot", 
     image: "images/it-support-chatbot.JPG"
 };
 //declare global variables
